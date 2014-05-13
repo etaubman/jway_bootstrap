@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jWAY Games</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="bootsrap/boostrap.min.css">
+	<!-- Fullpage CSS -->
+	<link rel="stylesheet" href="fullpage/css/fulPage.css">
+
+	<!-- jWAY CSS -->
+	
+	<!-- jQuery 1.11.1 -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<!-- Fullpage JS -->
+	<script src="fullpage/js/jquery.fullPage.min.js"></script>
+	<script src="fullpage/vendor/jquery.easings.min.js"></script>
+	<script src="fullpage/vendor/jquery.slimscroll.min.js"></script>
+
+	<!-- jWAY JS -->
+
+</head>
+<body>
+	
+</body>
+</html>
