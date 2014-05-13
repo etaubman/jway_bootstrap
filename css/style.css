@@ -65,3 +65,21 @@ body{
 	line-height: 81px;
 	vertical-align: middle;
 }
+
+#main-slide-title{
+	font-weight:bold;
+	font-size:5em;
+	color:#444;
+}
+
+#product-tagline, #buy-a-game{
+	color:#FFFFFF;
+}
+
+.sub-slide-title{
+	font-size:3em;
+}
+
+p{
+	font-size:1.9em;
+}

@@ -41,17 +41,26 @@
 
 	<nav class="navbar navbar-default" role="navigation">
 		<!-- Brand and toggle get grouped for better mobile display -->
-
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
+	
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			
 			<ul class="nav navbar-nav navbar-right">
-				<li class="navbar-link"><a href="#">jWAY</a></li>
-				<li class="navbar-link"><a href="#">HOW TO PLAY</a></li>
-				<li class="navbar-link"><a href="#">THE BENEFITS</a></li>
-				<li class="navbar-link"><a href="#">THE PRODUCT</a></li>
-				<li class="navbar-link"><a href="#">CONTACT</a></li>
+				<li data-menuanchor="jway" class="navbar-link"><a href="#jway">jWAY</a></li>
+				<li data-menuanchor="how" class="navbar-link"><a href="#how">HOW TO PLAY</a></li>
+				<li data-menuanchor="benefit" class="navbar-link"><a href="#benefit">THE BENEFITS</a></li>
+				<li data-menuanchor="product" class="navbar-link"><a href="#product">THE PRODUCT</a></li>
+				<li data-menuanchor="contact" class="navbar-link"><a href="#contact">CONTACT</a></li>
 			</ul>
+			
 		</div><!-- /.navbar-collapse -->
-
 	</nav>
 
 	<!-- FIXED RESPONSIVE FOOTER -->
@@ -66,13 +75,13 @@
 
 		<!-- JWay Landing Slide -->
 
-		<div class="section container-fluid">
+		<div data-anchor="jway" class="section container-fluid">
 			<div class="row">
 			  <div class="col-md-6">
-			  	<h1>jWAY</h1>
-			  	<h2>Tagline goes here.</h2>
+			  	<h1 id='main-slide-title'>jWAY</h1>
+			  	<h2 id='product-tagline'>Tagline goes here.</h2>
 			  	<p>This is some words.</p>
-			  	<h3>Buy a Game</h3>
+			  	<h3 id="buy-a-game">Buy a Game</h3>
 			  </div>
 			  <div class="col-md-6">[Image Placeholder]</div>
 			</div>
@@ -80,10 +89,10 @@
 
 		<!-- How to Play Slide -->
 
-		<div class="section container-fluid">
+		<div data-anchor="how" class="section container-fluid">
 			<div class="row">
 			  <div class="col-md-6">
-			  	<h1>How To Play</h1>
+			  	<h1 class="sub-slide-title">How To Play</h1>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
@@ -94,10 +103,10 @@
 
 		<!-- Benefits Slide -->
 
-		<div class="section container-fluid">
+		<div data-anchor="benefit" class="section container-fluid">
 			<div class="row">
 			  <div class="col-md-6">
-			  	<h1>Benefits</h1>
+			  	<h1 class="sub-slide-title">Benefits</h1>
 			  	<h2>Physical Therapy</h2>
 			  	<h2>Physical Therapy</h2>
 			  	<h2>Physical Therapy</h2>
@@ -110,10 +119,10 @@
 
 		<!-- Product Slide -->
 
-		<div class="section container-fluid">
+		<div data-anchor="product" class="section container-fluid">
 			<div class="row">
 			  <div class="col-md-6">
-			  	<h1>Product</h1>
+			  	<h1 class="sub-slide-title">Product</h1>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
@@ -121,7 +130,7 @@
 			  	<p>This is some words.</p>
 			  </div>
 			  <div class="col-md-6">
-			  	<h1>Distributors</h1>
+			  	<h1 class="sub-slide-title">Distributors</h1>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
 			  	<p>This is some words.</p>
@@ -133,10 +142,10 @@
 
 		<!-- Contact Slide -->
 
-		<div class="section container-fluid">
+		<div data-anchor="contact" class="section container-fluid">
 			<div class="row">
 			  <div class="col-md-6">
-			  	<h1>Contact</h1>
+			  	<h1 class="sub-slide-title">Contact</h1>
 			  	<p>This is some words.</p>
 			  	<h3>orders@jwaygames.com</h3>
 			  	<h3>orders@jwaygames.com</h3>
