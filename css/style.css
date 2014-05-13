@@ -83,3 +83,12 @@ body{
 p{
 	font-size:1.9em;
 }
+
+.navbar-fixed-bottom>.navbar-right{
+	padding-top: 8px;
+	padding-right: 34px;
+}
+
+img.social-link:hover{
+
+}
