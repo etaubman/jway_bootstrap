@@ -22,8 +22,8 @@ body{
 }
 
 .container-fluid{
-	padding-left:80px;
-	padding-right:80px;
+	padding-left:5%;
+	padding-right:5%;
 }
 
 #copyright{
@@ -33,14 +33,14 @@ body{
 }
 
 .navbar-link{
-	padding-left:10px;
+	padding-left:.10px;
 	padding-right:10px;
 	height:81px;
 }
 
 .navbar-link a{
 	font-weight: bold;
-	font-size:1.2em;
+	font-size:19.6px;
 }
 
 .navbar-nav>li>a {
@@ -68,7 +68,7 @@ body{
 
 #main-slide-title{
 	font-weight:bold;
-	font-size:5em;
+	font-size:60px;
 	color:#444;
 }
 
@@ -77,11 +77,11 @@ body{
 }
 
 .sub-slide-title{
-	font-size:3em;
+	font-size:30px;
 }
 
 p{
-	font-size:1.9em;
+	font-size:28px;
 }
 
 .navbar-fixed-bottom>.navbar-right{
