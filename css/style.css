@@ -52,11 +52,6 @@ body{
 	color:rgb(43,182,216);
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: rgb(43,189,216);
-	background-color: transparent;
-}
-
 .navbar-nav.navbar-right:last-child {
 	margin-right: 20px;
 }
@@ -67,7 +62,7 @@ body{
 }
 
 #main-slide-title{
-	font-weight:bold;
+	font-weight:500;
 	font-size:60px;
 	color:#444;
 }
@@ -81,7 +76,7 @@ body{
 }
 
 p{
-	font-size:28px;
+	font-size:1.4em;
 }
 
 .navbar-fixed-bottom>.navbar-right{
