@@ -34,7 +34,7 @@ border-color: white;
 #copyright{
 	font-weight: 300;
 	color:#FFFFFF;
-	margin-left: 30px;
+	margin-left: 15px;
 }
 
 .navbar-link{
@@ -71,7 +71,7 @@ background-color: transparent;
 
 #main-slide-title{
 	font-weight:500;
-	font-size:60px;
+	font-size:3.9em;
 	color:#444;
 }
 
@@ -81,11 +81,11 @@ background-color: transparent;
 
 .sub-slide-title{
 	margin-top: -10px;
-	font-size:50px;
+	font-size:3.2em;
 }
 
 p{
-	font-size:20px;
+	font-size:1.4em;
 }
 
 .navbar-fixed-bottom>.navbar-right{
@@ -124,5 +124,6 @@ img.social-link:hover{
 }
 
 #main-logo{
+	margin-left:15px;
 	height:100%;
 }
