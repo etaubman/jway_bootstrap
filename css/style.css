@@ -8,6 +8,11 @@ body{
 	border:0px;
 }
 
+.navbar-default {
+background-color: white;
+border-color: white;
+}
+
 .navbar-brand{
 	height:81px;
 	line-height: 49px;
@@ -72,6 +77,7 @@ body{
 }
 
 .sub-slide-title{
+	margin-top: -10px;
 	font-size:50px;
 }
 
@@ -85,7 +91,7 @@ p{
 }
 
 img.social-link:hover{
-
+	cursor:pointer;
 }
 
 .centered-text{
@@ -100,4 +106,16 @@ img.social-link:hover{
 	position:relative;
 	max-width:140%;	
 	bottom:0px;
+}
+
+#how-to-video{
+	margin-top:90px;
+}
+
+.blue-text{
+	color:#2BB6FF;
+}
+
+.white-text{
+	color: #FFFFFF;
 }
