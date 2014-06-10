@@ -25,9 +25,4 @@
 	});
 
 
-	//Setup our links
-	$(window).hashchange(function(){
-
-	});
-
 });

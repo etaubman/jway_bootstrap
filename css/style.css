@@ -76,7 +76,7 @@ body{
 }
 
 p{
-	font-size:1.4em;
+	font-size:20px;
 }
 
 .navbar-fixed-bottom>.navbar-right{
@@ -90,4 +90,14 @@ img.social-link:hover{
 
 .centered-text{
 	padding-top:4%;
+}
+
+.image-container{
+	position:relative;
+}
+
+.slide-image{
+	position:relative;
+	max-width:140%;	
+	bottom:0px;
 }
