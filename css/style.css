@@ -54,7 +54,7 @@ border-color: white;
 	text-align: center;
 }
 .navbar-link a:hover {
-	color:rgb(43,182,216);
+	color:#2BB6FF;
 }
 
 .navbar-nav.navbar-right:last-child {
@@ -118,4 +118,8 @@ img.social-link:hover{
 
 .white-text{
 	color: #FFFFFF;
+}
+
+#main-logo{
+	height:100%;
 }
