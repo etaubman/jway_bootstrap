@@ -53,9 +53,12 @@ border-color: white;
 	padding-bottom: 0;
 	text-align: center;
 }
-.navbar-link a:hover {
-	color:#2BB6FF;
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #2BB6FF;
+background-color: transparent;
 }
+.na
 
 .navbar-nav.navbar-right:last-child {
 	margin-right: 20px;
@@ -113,7 +116,7 @@ img.social-link:hover{
 }
 
 .blue-text{
-	color:#2BB6FF;
+	color:#2BB6FF !important;
 }
 
 .white-text{

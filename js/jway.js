@@ -9,6 +9,13 @@
 
  $(document).ready(function() {
 
+ 	 function setActiveNavBarLink() {
+	 	var hash = window.location.hash;
+	 	if (hash == "") { hash = "#jway";}
+		$(".navbar-link a").removeClass("blue-text");
+		$("[href='"+hash+"']").addClass("blue-text");
+	 }
+
  	//Initialize fullpage plugin
 	$('#fullpage').fullpage({
 		anchors: ['jway', 'how','benefits','product','contact'],
@@ -24,5 +31,12 @@
 		touchSensitivity:10
 	});
 
+	$(window).on("hashchange", function(){
+			
+		setActiveNavBarLink();
+
+	});
+
+	setActiveNavBarLink();
 
 });
